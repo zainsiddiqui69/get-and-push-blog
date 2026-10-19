@@ -12,7 +12,7 @@ $site_desc = 'Practical business articles, generative engine optimization playbo
 <title><?php echo htmlspecialchars($site_title); ?></title>
 <meta name="description" content="<?php echo htmlspecialchars($site_desc); ?>">
 <meta name="keywords" content="business strategy, marketing playbooks, generative engine optimization, GEO, AI automation 2026, startup growth, B2B pipeline, productivity, finance">
-<meta name="author" content="Get & Push Editorial Team">
+<meta name="author" content="Zain Siddiqui">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="./">
 
