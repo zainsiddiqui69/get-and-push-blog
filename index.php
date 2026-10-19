@@ -1,8 +1,8 @@
 <?php
 // Site settings – edit these values
 $site_name = 'Get & Push';
-$site_title = $site_name . ' – Business Insights & Company News';
-$site_desc = $site_name . ' publishes practical business articles, company news and ideas for growing teams.';
+$site_title = $site_name . ' – Business Insights, Growth Playbooks & AI Workflows';
+$site_desc = 'Practical business articles, generative engine optimization playbooks, AI automation workflows, and strategic insights for fast-growing teams.';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +11,67 @@ $site_desc = $site_name . ' publishes practical business articles, company news 
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title><?php echo htmlspecialchars($site_title); ?></title>
 <meta name="description" content="<?php echo htmlspecialchars($site_desc); ?>">
+<meta name="keywords" content="business strategy, marketing playbooks, generative engine optimization, GEO, AI automation 2026, startup growth, B2B pipeline, productivity, finance">
+<meta name="author" content="Get & Push Editorial Team">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="./">
+
+<!-- Open Graph / Facebook / LinkedIn -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Get & Push">
+<meta property="og:title" content="<?php echo htmlspecialchars($site_title); ?>">
+<meta property="og:description" content="<?php echo htmlspecialchars($site_desc); ?>">
+<meta property="og:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=630&fit=crop">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@getandpush">
+<meta name="twitter:creator" content="@getandpush">
+<meta name="twitter:title" content="<?php echo htmlspecialchars($site_title); ?>">
+<meta name="twitter:description" content="<?php echo htmlspecialchars($site_desc); ?>">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=630&fit=crop">
+
+<!-- SVG Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b1d4a'/><text x='50' y='68' font-size='56' font-family='system-ui,sans-serif' font-weight='900' fill='white' text-anchor='middle'>G<tspan fill='%23ea580c'>&amp;</tspan>P</text></svg>">
+<meta name="theme-color" content="#0b1d4a">
+
+<!-- Schema.org JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://getandpush.com/#organization",
+      "name": "Get & Push",
+      "url": "https://getandpush.com",
+      "logo": "https://getandpush.com/logo.png",
+      "description": "Business insights, generative engine optimization, and growth playbooks for modern teams.",
+      "sameAs": [
+        "https://twitter.com/getandpush",
+        "https://www.linkedin.com/company/getandpush"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://getandpush.com/#website",
+      "url": "https://getandpush.com",
+      "name": "Get & Push",
+      "description": "Ideas that help your business get ahead and keep pushing.",
+      "publisher": { "@id": "https://getandpush.com/#organization" }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://getandpush.com/#blog",
+      "name": "Get & Push Blog",
+      "description": "Weekly business frameworks, AI automation teardowns, and finance guides.",
+      "publisher": { "@id": "https://getandpush.com/#organization" }
+    }
+  ]
+}
+</script>
+
 <script src="https://cdn.tailwindcss.com/3.4.17"></script>
 <script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
